@@ -37,17 +37,12 @@ if __name__ == "__main__":
            break
    
         if text.lower() == "cc":
-            print(f"\nYou wrote 'cc', which represents two consecutive consonats in a 
-word.\nThere are {len(cc)} occurences of this type of cluster in the text\n", cc)
+            print(f"\nYou wrote 'cc', which represents two consecutive consonats in a word.\nThere are {len(cc)} occurences of this type of cluster in the text\n", cc)
         elif text.lower() == "ccc":
-            print(f"\nYou wrote 'ccc', which represents three consecutive consonats in a 
-word.\nThere are {len(ccc)} occurences of this type of cluster in the text\n", ccc)
+            print(f"\nYou wrote 'ccc', which represents three consecutive consonats in a word.\nThere are {len(ccc)} occurences of this type of cluster in the text\n", ccc)
         elif text.lower() == "cccc":
-            print(f"\nYou wrote 'cccc', which represents four consecutive consonats in a 
-word.\nThere are {len(cccc)} occurences of this type of cluster in the text\n", cccc)
+            print(f"\nYou wrote 'cccc', which represents four consecutive consonats in a word.\nThere are {len(cccc)} occurences of this type of cluster in the text\n", cccc)
         elif text.lower() == "ccccc":
-            print(f"\nYou wrote 'ccccc', which represents five consecutive consonats in 
-a word.\nThere is only  {len(ccccc)} occurence of this type of cluster in the text\n", 
-ccccc)
+            print(f"\nYou wrote 'ccccc', which represents five consecutive consonats in a word.\nThere is only  {len(ccccc)} occurence of this type of cluster in the text\n", ccccc)
         else:
            print("Your number is out of range:(")
