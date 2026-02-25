@@ -30,8 +30,7 @@ consonantcluster'''
 
 if __name__ == "__main__":
     while True:
-        text = input("\n'c' represents the consecutive number of a consonant.\nWrite 
-'cc', 'ccc', 'cccc' or 'ccccc' and see what happens (write exit to exit) ").strip()
+        text = input("\n'c' represents the consecutive number of a consonant.\nWrite 'cc', 'ccc', 'cccc' or 'ccccc' and see what happens (write exit to exit) ").strip()
 
         if text.lower() == "exit":
            print("Goodbye")
