@@ -1,6 +1,6 @@
 # Norwegian Nynorsk Consonant Cluster Finder
 
-This Python script analyzes **Norwegian Nynorsk** text from the UDHR corpus to find words containing consecutive consonant clusters. It provides an interactive interface to explore clusters of length 2–5.
+This Python script analyzes **Norwegian Nynorsk** text from the UDHR corpus to find words containing consonant clusters. It provides an interactive interface to explore consonant clusters of length 2–5.
 
 ## Features
 
